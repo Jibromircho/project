@@ -37,7 +37,7 @@ class Settings:
         """Increase level settings"""
         if self.player_speed >= 25:
             self.player_speed *= self.player_speed_scale
-        if self.self.ball_speed_max >= 22:
+        if self.ball_speed_max >= 22:
             self.ball_speed_x *= self.player_speed_scale
             self.ball_speed_y *= self.player_speed_scale
             self.ball_speed_max *= self.player_speed_scale
